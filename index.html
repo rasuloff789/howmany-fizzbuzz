@@ -3,15 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>55-dars. Bootstrap. container va boshqa umumiy masalalar</title>
+  <title>How many fizzbuzz</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <!-- iltimos birovning mehnati qadrlang -->
+  <div class="container">
+    <h1 class="h1 text-center"> Nechta Fizz, nechta Buzz va nechta FizzBuzz?</h1>
+    <form class="formFizzBuzz form-group w-25 mx-auto d-flex align-items-center" action="https://echo.htmlacademy.ru" method="post">
+      <input class="inputNumber form-control" type="number" step="any" name="number">
+      <button class="btn btn-success flex-shrink-0 ml-3" >Natijani ko'rsat</button>
+    </form>
+    <hr>
+    
+    <p class="h4 text-dark">Fizzlar soni <span class="result-fizz">N</span> ta</p>
+    
+    <p class="h4 text-dark">Buzzlar soni <span class="result-buzz">N</span> ta</p>
+    
+    
+    <p class="h4 text-dark">FizzBuzzlar soni <span class="result-fizzbuzz">N</span> ta</p>
+    
+    
+    <div class="d-flex justify-content-center">
+      <div class="mx-5">
+        <h2 class="h2 text-center">Fizzlar</h2>
+        <div class="fizzContainer text-center">
+          
+        </div>
+      </div>
+      <div class="mx-5">
+        <h2 class="h2 text-center">Buzzlar</h2>
+        <div class="buzzContainer text-center">
+          
+        </div>
+      </div>
+      <div class="mx-5">
+        <h2 class="h2 text-center">FizzBuzzlar</h2>
+        <div class="fizzBuzzContainer text-center">
+          
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
   
- 
+  
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/scripts.js"></script>
